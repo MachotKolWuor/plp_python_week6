@@ -1,0 +1,2 @@
+# why can the if check not catch 'abc' on its own?
+An if check cannot catch 'abc' on its own because 'abc' cause q 'valueError' when Python tries to convert it with int(). An 'if' statement only checks conditions True or False,it does not catch exceptions.When the conversation failes,the program crashes before the 'if' is ever evaluated,so we need try except to handle it .
